@@ -1,73 +1,71 @@
-# 🔍 BCG X Data Science Project – Customer Churn Prediction for PowerCo
+🔍 PowerCo Churn Prediction – A BCG X Virtual Project
+Welcome to my end-to-end data science project, completed through the BCG X Virtual Experience Program on Forage. This case study mirrors real consulting work—where data is messy, goals aren’t always clear, and the challenge is to deliver insights that matter.
 
-Welcome to my end-to-end data science project completed as part of the **BCG X Virtual Experience Program on Forage**. This project reflects real consulting scenarios where data is complex, client problems are ambiguous, and the goal is to deliver clear, actionable insights that drive measurable business impact.
+🚀 Project Snapshot
+PowerCo, a major energy provider, is concerned about rising customer churn. My task: analyze customer behavior and build a predictive model to anticipate who’s likely to leave—and why.
 
----
+Following the full data science lifecycle, I approached this problem like a consultant would: data-driven, strategic, and business-focused.
 
-## 🚀 Project Overview
+📌 Project Breakdown
+1. 🔍 Understanding the Business
+Translated a vague client brief into focused, solvable business questions.
 
-This case study focuses on **PowerCo**, a major gas and electricity provider concerned about losing customers. The objective was to analyze customer behavior and develop a machine learning model to predict churn, following the complete data science lifecycle—mirroring the approach used by consultants at BCG X.
+Investigated how price sensitivity might influence churn.
 
----
+2. 🧹 Data Exploration & Cleaning
+Explored the data using Python to uncover trends, gaps, and outliers.
 
-## 📌 Core Project Stages
+Created visualizations to understand usage behavior and churn patterns.
 
-### 1. **Business Understanding & Problem Framing**
-- Interpreted vague client objectives and reframed them into actionable business questions.
-- Explored the concept of **price sensitivity** as a potential driver of customer churn.
+3. 🧠 Feature Engineering
+Built 11 new features, focusing on time-based behavior and pricing.
 
-### 2. **Exploratory Data Analysis (EDA) & Cleaning**
-- Conducted thorough EDA using Python to identify trends, outliers, and missing values.
-- Visualized key patterns related to churn and energy usage behavior.
+Applied energy industry context to boost feature relevance.
 
-### 3. **Feature Engineering**
-- Created **11 new features**, including time-based and pricing-related attributes.
-- Applied domain knowledge to improve feature relevance.
+4. 🤖 Modeling & Evaluation
+Trained a Random Forest Classifier that reached 85% accuracy.
 
-### 4. **Modeling & Evaluation**
-- Built a **Random Forest Classifier**, achieving **85% accuracy**.
-- Evaluated the model using accuracy, precision, recall, and F1-score.
-- Assessed the impact of hyperparameter tuning (GridSearchCV) on model performance.
+Used precision, recall, and F1-score for balanced model evaluation.
 
-### 5. **Insights & Recommendations**
-- Identified **price sensitivity** as a factor, but not the most dominant one in predicting churn.
-- Delivered a concise **executive summary** outlining actionable recommendations for client stakeholders.
+Tuned parameters using GridSearchCV to improve performance.
 
----
+5. 💼 Insights & Action
+Found that while price matters, it's not the sole reason for churn.
 
-## 🎯 Key Learnings
+Delivered an executive-friendly summary with targeted recommendations.
 
-- Developed a **consultant mindset**—framing business problems with limited data and high ambiguity.
-- Strengthened practical skills in:
-  - Exploratory Data Analysis
-  - Feature Engineering
-  - Predictive Modeling
-- Practiced translating technical insights into **client-ready business narratives**.
-- Completed a full project independently, mirroring real-world consulting workflows.
+🎯 Key Takeaways
+Through this project, I learned to think like a consultant—solving ambiguous problems with limited data. I also sharpened hands-on skills in:
 
----
+🔎 Exploratory Data Analysis
 
-## 🛠️ Tools & Technologies
+🛠️ Feature Engineering
 
-- **Python**: pandas, NumPy, scikit-learn  
-- **Visualization**: matplotlib, seaborn  
-- **Machine Learning**: Random Forest Classifier, Mutual Information for feature selection  
-- **Environment**: Jupyter Notebook  
-- **Business Thinking**: Stakeholder communication, executive summary writing
+🤖 Predictive Modeling
 
----
+💬 Business Storytelling
 
-## 📈 Results Summary
+I completed the entire pipeline independently, as it would be done in a real-world client engagement.
 
-- Engineered **11 new features** from raw data.  
-- Selected **38 numeric features** using statistical and model-based approaches.  
-- Achieved **85% model accuracy** on test data.  
-- Delivered business insights focused on **customer retention strategy**.
+🛠️ Tools & Tech
+Languages & Libraries: Python (pandas, NumPy, scikit-learn)
 
----
+Visualization: matplotlib, seaborn
 
-## 💡 Final Thoughts
+Modeling: Random Forest, Mutual Information
 
-This project was a powerful introduction to how **data science drives real business decisions**. More than just writing code, it required asking the right questions, interpreting the data critically, and communicating clearly with stakeholders.
+Environment: Jupyter Notebook
 
-> *Data science is not just about models—it's about making data meaningful for decision-makers.*
+Consulting Skills: Stakeholder-focused analysis and executive summaries
+
+📈 Final Highlights
+Engineered 11 new features to capture deeper behavioral signals
+
+Selected 38 numeric variables using both statistical and model-based methods
+
+Achieved 85% model accuracy
+
+Delivered insights to help PowerCo refine its customer retention strategy
+
+💡 Final Thoughts
+This project was more than a modeling task—it was a hands-on simulation of how data science fuels real business decisions. It challenged me to ask the right questions, explore creatively, and communicate insights with clarity.
